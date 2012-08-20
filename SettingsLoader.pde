@@ -1,12 +1,13 @@
-boolean drawCircle = false;
-PVector p = new PVector(0, 0);
+boolean drawCircle = true;
+PVector p = new PVector(320, 240);
 color fillColor = color(255,0,0);
 color strokeColor = color(0,255,0);
 int strokeWeightNum = 1;
 
 void setup() {
+  Settings settings = new Settings("settings.txt");
   size(640, 480);
-  Settings s = new Settings("settings.txt");
+  smooth();
 }
 
 void draw() {
