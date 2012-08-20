@@ -1,0 +1,17 @@
+drawCircle
+true
+
+xPos
+150
+
+yPos
+350
+
+fillColor
+(0,255,10,10)
+
+strokeColor
+(255,20)
+
+strokeWeight
+20
