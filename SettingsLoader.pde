@@ -4,8 +4,12 @@ color fillColor = color(255,0,0);
 color strokeColor = color(0,255,0);
 int strokeWeightNum = 1;
 
-void setup() {
+void initSettings(){
   Settings settings = new Settings("settings.txt");
+}
+
+void setup() {
+  initSettings();
   size(640, 480);
   smooth();
 }
